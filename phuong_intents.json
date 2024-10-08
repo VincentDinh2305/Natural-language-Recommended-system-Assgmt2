@@ -1,0 +1,224 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Hey", "Is anyone there?", "Hello", "How are you?" ],
+      "responses": [ "Hello", "Hi", "Hi there", "Hello how are you?" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thanks for the help" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "You're most welcome!" ]
+    },
+    {
+      "tag": "menu_inquiry",
+      "patterns": [
+        "What's on the menu?",
+        "Can I see the burger menu?",
+        "What burgers do you have?",
+        "Show me your burger selections."
+      ],
+      "responses": [
+        "Here's our burger menu!",
+        "We have a variety of burgers, here's the menu.",
+        "Take a look at our delicious burger selections.",
+        "Here are all the burgers we offer."
+      ]
+    },
+    {
+      "tag": "order_placement",
+      "patterns": [
+        "I'd like to place an order",
+        "Can I order a burger?",
+        "I want to order a burger now",
+        "How do I order?"
+      ],
+      "responses": [
+        "Sure, what would you like to order?",
+        "Of course! Which burger are you craving?",
+        "What can I get for you today?",
+        "Happy to take your order, what will it be?"
+      ]
+    },
+    {
+      "tag": "customization_options",
+      "patterns": [
+        "Can I customize my burger?",
+        "What customizations do you offer?",
+        "I want to add toppings, is that possible?",
+        "How can I customize my order?"
+      ],
+      "responses": [
+        "Absolutely, you can customize your burger.",
+        "We offer various toppings and sauces for customization.",
+        "Sure, tell us how you'd like to customize your burger.",
+        "Yes, we have several customization options available."
+      ]
+    },
+    {
+      "tag": "allergy_inquiry",
+      "patterns": [
+        "Do you have any gluten-free options?",
+        "I have a peanut allergy, what can I eat?",
+        "Are there any allergen-free burgers?",
+        "What options do I have if I'm allergic to dairy?"
+      ],
+      "responses": [
+        "We have gluten-free buns and allergen-free options.",
+        "Please inform us of your allergy, and we'll accommodate you.",
+        "We offer several allergen-free alternatives.",
+        "We can customize your order to be allergen-free."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What's the status of my order?",
+        "Is my burger ready yet?",
+        "How long until my order is ready?",
+        "Can you check on my order?"
+      ],
+      "responses": [
+        "Let me check on that for you.",
+        "Your order is being prepared, it won't be long.",
+        "It's almost ready, thank you for your patience.",
+        "I'll check the status, one moment please."
+      ]
+    },
+    {
+      "tag": "delivery_inquiry",
+      "patterns": [
+        "Do you offer delivery?",
+        "Can I get my burger delivered?",
+        "What are your delivery options?",
+        "How can I get my order delivered?"
+      ],
+      "responses": [
+        "Yes, we offer delivery services.",
+        "We can deliver your burger right to your door.",
+        "Delivery options are available, just let us know your address.",
+        "Sure, we have several delivery methods."
+      ]
+    },
+    {
+      "tag": "pickup_inquiry",
+      "patterns": [
+        "Can I pick up my order?",
+        "Is there a pickup option?",
+        "How do I go about picking up my burger?",
+        "I prefer to pick up, is that possible?"
+      ],
+      "responses": [
+        "Pickup is definitely an option, just let us know when.",
+        "Yes, you can pick up your order at our location.",
+        "We'll have your order ready for pickup.",
+        "Sure, just tell us the time you'll be here."
+      ]
+    },
+    {
+      "tag": "payment_options",
+      "patterns": [
+        "What payment methods do you accept?",
+        "Can I pay with a credit card?",
+        "Do you accept mobile payments?",
+        "How can I pay for my order?"
+      ],
+      "responses": [
+        "We accept cash, credit cards, and mobile payments.",
+        "Credit cards and mobile payments are welcome here.",
+        "You can pay using any major credit card or mobile payment service.",
+        "Multiple payment methods are accepted for your convenience."
+      ]
+    },
+    {
+      "tag": "order_modification",
+      "patterns": [
+        "Can I change my order?",
+        "I need to add something to my order.",
+        "I want to remove an item from my order.",
+        "Is it too late to modify my order?"
+      ],
+      "responses": [
+        "Sure, what changes do you need?",
+        "Not a problem, what would you like to add or remove?",
+        "We can modify your order, what do you need?",
+        "It's not too late, what adjustment is required?"
+      ]
+    },
+    {
+      "tag": "order_cancellation",
+      "patterns": [
+        "I need to cancel my order",
+        "Can I cancel my burger order?",
+        "How do I cancel my order?",
+        "Is it possible to cancel my order now?"
+      ],
+      "responses": [
+        "I've cancelled your order, no worries.",
+        "Your order has been cancelled as requested.",
+        "Sure, I've taken care of canceling your order.",
+        "Cancellation confirmed, anything else I can help with?"
+      ]
+    },
+    {
+      "tag": "feedback_request",
+      "patterns": [
+        "How can I give feedback?",
+        "I'd like to leave a review",
+        "Where can I comment about my experience?",
+        "I want to provide feedback on my order"
+      ],
+      "responses": [
+        "We'd love to hear your feedback, here's how.",
+        "Thank you for wanting to leave a review, you can do so here.",
+        "Your feedback is valuable, please share it with us here.",
+        "Here's the link to leave your comments and feedback."
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "How can I join the loyalty program?",
+        "What are the benefits of your loyalty program?",
+        "Tell me about your loyalty program"
+      ],
+      "responses": [
+        "Yes, we have a loyalty program for our regular customers.",
+        "Joining our loyalty program is easy, here's how.",
+        "Our loyalty program offers discounts and freebies.",
+        "Here are all the perks of our loyalty program."
+      ]
+    },
+    {
+      "tag": "nutritional_info",
+      "patterns": [
+        "Can I get nutritional information for your burgers?",
+        "What are the calorie counts of your burgers?",
+        "Do you provide information on allergens?",
+        "I need the nutritional details of your menu"
+      ],
+      "responses": [
+        "Sure, here's the nutritional information.",
+        "Each burger's calorie count is listed here.",
+        "We provide detailed allergen and nutritional info.",
+        "You can find nutritional details on our menu."
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "Any special offers today?",
+        "What deals do you have right now?",
+        "Tell me about your current promotions",
+        "Do you have any discounts?"
+      ],
+      "responses": [
+        "Check out our current special offers!",
+        "We have some great deals available right now.",
+        "Here are today's special promotions.",
+        "Yes, we're offering discounts on these items today."
+      ]
+    }
+  ]
+}
